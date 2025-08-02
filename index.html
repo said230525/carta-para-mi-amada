@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Para mi amada 💌</title>
+  <title>Para mi mocosa hermosa 💌</title>
   <style>
     body {
       font-family: 'Georgia', serif;
@@ -21,11 +21,11 @@
       text-align: center;
       color: #d63384;
       font-size: 2.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     p {
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
       font-size: 1.2rem;
     }
 
@@ -35,7 +35,7 @@
       margin-top: 2rem;
     }
 
-    /* Animación flotante */
+    /* Corazones y frases flotantes */
     .float {
       position: fixed;
       bottom: -50px;
@@ -59,25 +59,25 @@
   </style>
 </head>
 <body>
-  <h1>Para ti, mi mocosa 💌</h1>
+  <h1>Para ti, mi mocosa hermosa 💌</h1>
 
-  <p>Desde que llegaste, todo cambió. No hay un solo día en que no me detenga a pensar en lo afortunado que soy de tenerte.</p>
+  <p>Mi mocosa hermosa,</p>
 
-  <p>Tus ojos... los más hermosos del mundo. Tu sonrisa... perfecta. Y aunque a veces no lo diga, en silencio te pienso, te admiro, y te amo.</p>
+  <p>Hoy me dijeron que es el Día de la Novia… y aunque no lo sabía, no podía dejar pasar la oportunidad de recordarte lo mucho que significas para mí. Porque tenerte, incluso en la distancia, es tener algo que vale más que cualquier fecha en el calendario.</p>
 
-  <p>Quisiera abrazarte incluso en la distancia, susurrarte lo que siento, y que sepas que en este universo, tú eres mi todo.</p>
+  <p>Tienes los ojos más hermosos del mundo, y no lo digo por exagerar. Lo digo porque cada vez que los recuerdo, me siento en casa. Y tu sonrisa… es perfecta. Es de esas que no solo se ven, sino que se sienten. Me alegra los días, me calma el alma, y me enamora cada vez más.</p>
 
-  <p>Si el mundo se acabara hoy, no me importaría, porque ya viví el milagro de conocerte.</p>
+  <p>Sé que estamos lejos, pero eso no cambia lo que eres para mí: mi persona especial, mi refugio, mi mocosa hermosa que se ganó mi corazón sin pedir permiso.</p>
 
-  <p class="firma">– Tu loco enamorado</p>
+  <p>Gracias por existir, por quedarte, por quererme con esa ternura que solo tú sabes dar.</p>
 
-  <!-- Música MP3 invisible -->
-  <audio id="musicaFondo" autoplay loop>
-    <source src="Lo tienes todo.mp3" type="audio/mpeg">
-    Tu navegador no soporta audio HTML5.
-  </audio>
+  <p>Feliz Día de la Novia, amor.</p>
 
-  <!-- Corazones y Te amo flotantes -->
+  <p>Un día, no solo te lo voy a escribir… te lo voy a decir al oído, mirándote a los ojos.</p>
+
+  <p class="firma">Te amo.</p>
+
+  <!-- Corazones y frases flotantes -->
   <script>
     const frases = ['❤️', '💖', '💘', 'Te amo 3 millones', '💓', '💗', 'Te amo 3 millones'];
     function crearElementoFlotante() {
@@ -90,16 +90,6 @@
       setTimeout(() => span.remove(), 10000);
     }
     setInterval(crearElementoFlotante, 800);
-
-    // Reproducción automática con activación en clic si es necesario
-    window.addEventListener('DOMContentLoaded', () => {
-      const audio = document.getElementById('musicaFondo');
-      audio.play().catch(() => {
-        document.body.addEventListener('click', () => {
-          audio.play();
-        }, { once: true });
-      });
-    });
   </script>
 </body>
 </html>
